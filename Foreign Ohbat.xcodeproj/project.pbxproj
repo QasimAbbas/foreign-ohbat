@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		968BA43220FE70F90065868A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BA43120FE70F90065868A /* AppDelegate.swift */; };
+		968BA43420FE70F90065868A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BA43320FE70F90065868A /* ViewController.swift */; };
+		968BA43720FE70F90065868A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968BA43520FE70F90065868A /* Main.storyboard */; };
+		968BA43A20FE70F90065868A /* Foreign_Ohbat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 968BA43820FE70F90065868A /* Foreign_Ohbat.xcdatamodeld */; };
+		968BA43C20FE70FC0065868A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968BA43B20FE70FC0065868A /* Assets.xcassets */; };
+		968BA43F20FE70FC0065868A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968BA43D20FE70FC0065868A /* LaunchScreen.storyboard */; };
+		968BA44A20FE70FC0065868A /* Foreign_OhbatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BA44920FE70FC0065868A /* Foreign_OhbatTests.swift */; };
+		968BA45520FE70FC0065868A /* Foreign_OhbatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BA45420FE70FC0065868A /* Foreign_OhbatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		968BA44620FE70FC0065868A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968BA42620FE70F90065868A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968BA42D20FE70F90065868A;
+			remoteInfo = "Foreign Ohbat";
+		};
+		968BA45120FE70FC0065868A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968BA42620FE70F90065868A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968BA42D20FE70F90065868A;
+			remoteInfo = "Foreign Ohbat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		968BA42E20FE70F90065868A /* Foreign Ohbat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foreign Ohbat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968BA43120FE70F90065868A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		968BA43320FE70F90065868A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		968BA43620FE70F90065868A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		968BA43920FE70F90065868A /* Foreign_Ohbat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foreign_Ohbat.xcdatamodel; sourceTree = "<group>"; };
+		968BA43B20FE70FC0065868A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		968BA43E20FE70FC0065868A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		968BA44020FE70FC0065868A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968BA44520FE70FC0065868A /* Foreign OhbatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foreign OhbatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968BA44920FE70FC0065868A /* Foreign_OhbatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foreign_OhbatTests.swift; sourceTree = "<group>"; };
+		968BA44B20FE70FC0065868A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968BA45020FE70FC0065868A /* Foreign OhbatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foreign OhbatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968BA45420FE70FC0065868A /* Foreign_OhbatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foreign_OhbatUITests.swift; sourceTree = "<group>"; };
+		968BA45620FE70FC0065868A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		968BA42B20FE70F90065868A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BA44220FE70FC0065868A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BA44D20FE70FC0065868A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		968BA42520FE70F90065868A = {
+			isa = PBXGroup;
+			children = (
+				968BA43020FE70F90065868A /* Foreign Ohbat */,
+				968BA44820FE70FC0065868A /* Foreign OhbatTests */,
+				968BA45320FE70FC0065868A /* Foreign OhbatUITests */,
+				968BA42F20FE70F90065868A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		968BA42F20FE70F90065868A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968BA42E20FE70F90065868A /* Foreign Ohbat.app */,
+				968BA44520FE70FC0065868A /* Foreign OhbatTests.xctest */,
+				968BA45020FE70FC0065868A /* Foreign OhbatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		968BA43020FE70F90065868A /* Foreign Ohbat */ = {
+			isa = PBXGroup;
+			children = (
+				968BA43120FE70F90065868A /* AppDelegate.swift */,
+				968BA43320FE70F90065868A /* ViewController.swift */,
+				968BA43520FE70F90065868A /* Main.storyboard */,
+				968BA43B20FE70FC0065868A /* Assets.xcassets */,
+				968BA43D20FE70FC0065868A /* LaunchScreen.storyboard */,
+				968BA44020FE70FC0065868A /* Info.plist */,
+				968BA43820FE70F90065868A /* Foreign_Ohbat.xcdatamodeld */,
+			);
+			path = "Foreign Ohbat";
+			sourceTree = "<group>";
+		};
+		968BA44820FE70FC0065868A /* Foreign OhbatTests */ = {
+			isa = PBXGroup;
+			children = (
+				968BA44920FE70FC0065868A /* Foreign_OhbatTests.swift */,
+				968BA44B20FE70FC0065868A /* Info.plist */,
+			);
+			path = "Foreign OhbatTests";
+			sourceTree = "<group>";
+		};
+		968BA45320FE70FC0065868A /* Foreign OhbatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				968BA45420FE70FC0065868A /* Foreign_OhbatUITests.swift */,
+				968BA45620FE70FC0065868A /* Info.plist */,
+			);
+			path = "Foreign OhbatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		968BA42D20FE70F90065868A /* Foreign Ohbat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968BA45920FE70FC0065868A /* Build configuration list for PBXNativeTarget "Foreign Ohbat" */;
+			buildPhases = (
+				968BA42A20FE70F90065868A /* Sources */,
+				968BA42B20FE70F90065868A /* Frameworks */,
+				968BA42C20FE70F90065868A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Foreign Ohbat";
+			productName = "Foreign Ohbat";
+			productReference = 968BA42E20FE70F90065868A /* Foreign Ohbat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		968BA44420FE70FC0065868A /* Foreign OhbatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968BA45C20FE70FC0065868A /* Build configuration list for PBXNativeTarget "Foreign OhbatTests" */;
+			buildPhases = (
+				968BA44120FE70FC0065868A /* Sources */,
+				968BA44220FE70FC0065868A /* Frameworks */,
+				968BA44320FE70FC0065868A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968BA44720FE70FC0065868A /* PBXTargetDependency */,
+			);
+			name = "Foreign OhbatTests";
+			productName = "Foreign OhbatTests";
+			productReference = 968BA44520FE70FC0065868A /* Foreign OhbatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		968BA44F20FE70FC0065868A /* Foreign OhbatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968BA45F20FE70FC0065868A /* Build configuration list for PBXNativeTarget "Foreign OhbatUITests" */;
+			buildPhases = (
+				968BA44C20FE70FC0065868A /* Sources */,
+				968BA44D20FE70FC0065868A /* Frameworks */,
+				968BA44E20FE70FC0065868A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968BA45220FE70FC0065868A /* PBXTargetDependency */,
+			);
+			name = "Foreign OhbatUITests";
+			productName = "Foreign OhbatUITests";
+			productReference = 968BA45020FE70FC0065868A /* Foreign OhbatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		968BA42620FE70F90065868A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Qasim Abbas";
+				TargetAttributes = {
+					968BA42D20FE70F90065868A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					968BA44420FE70FC0065868A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 968BA42D20FE70F90065868A;
+					};
+					968BA44F20FE70FC0065868A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 968BA42D20FE70F90065868A;
+					};
+				};
+			};
+			buildConfigurationList = 968BA42920FE70F90065868A /* Build configuration list for PBXProject "Foreign Ohbat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 968BA42520FE70F90065868A;
+			productRefGroup = 968BA42F20FE70F90065868A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				968BA42D20FE70F90065868A /* Foreign Ohbat */,
+				968BA44420FE70FC0065868A /* Foreign OhbatTests */,
+				968BA44F20FE70FC0065868A /* Foreign OhbatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		968BA42C20FE70F90065868A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BA43F20FE70FC0065868A /* LaunchScreen.storyboard in Resources */,
+				968BA43C20FE70FC0065868A /* Assets.xcassets in Resources */,
+				968BA43720FE70F90065868A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BA44320FE70FC0065868A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BA44E20FE70FC0065868A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		968BA42A20FE70F90065868A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BA43420FE70F90065868A /* ViewController.swift in Sources */,
+				968BA43220FE70F90065868A /* AppDelegate.swift in Sources */,
+				968BA43A20FE70F90065868A /* Foreign_Ohbat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BA44120FE70FC0065868A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BA44A20FE70FC0065868A /* Foreign_OhbatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968BA44C20FE70FC0065868A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BA45520FE70FC0065868A /* Foreign_OhbatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		968BA44720FE70FC0065868A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 968BA42D20FE70F90065868A /* Foreign Ohbat */;
+			targetProxy = 968BA44620FE70FC0065868A /* PBXContainerItemProxy */;
+		};
+		968BA45220FE70FC0065868A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 968BA42D20FE70F90065868A /* Foreign Ohbat */;
+			targetProxy = 968BA45120FE70FC0065868A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		968BA43520FE70F90065868A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968BA43620FE70F90065868A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		968BA43D20FE70FC0065868A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968BA43E20FE70FC0065868A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		968BA45720FE70FC0065868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		968BA45820FE70FC0065868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		968BA45A20FE70FC0065868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8DY28XM67;
+				INFOPLIST_FILE = "Foreign Ohbat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qasim.webview.Foreign-Ohbat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		968BA45B20FE70FC0065868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8DY28XM67;
+				INFOPLIST_FILE = "Foreign Ohbat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qasim.webview.Foreign-Ohbat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		968BA45D20FE70FC0065868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8DY28XM67;
+				INFOPLIST_FILE = "Foreign OhbatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qasim.webview.Foreign-OhbatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foreign Ohbat.app/Foreign Ohbat";
+			};
+			name = Debug;
+		};
+		968BA45E20FE70FC0065868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8DY28XM67;
+				INFOPLIST_FILE = "Foreign OhbatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qasim.webview.Foreign-OhbatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foreign Ohbat.app/Foreign Ohbat";
+			};
+			name = Release;
+		};
+		968BA46020FE70FC0065868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8DY28XM67;
+				INFOPLIST_FILE = "Foreign OhbatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qasim.webview.Foreign-OhbatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Foreign Ohbat";
+			};
+			name = Debug;
+		};
+		968BA46120FE70FC0065868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8DY28XM67;
+				INFOPLIST_FILE = "Foreign OhbatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Qasim.webview.Foreign-OhbatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Foreign Ohbat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		968BA42920FE70F90065868A /* Build configuration list for PBXProject "Foreign Ohbat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968BA45720FE70FC0065868A /* Debug */,
+				968BA45820FE70FC0065868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968BA45920FE70FC0065868A /* Build configuration list for PBXNativeTarget "Foreign Ohbat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968BA45A20FE70FC0065868A /* Debug */,
+				968BA45B20FE70FC0065868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968BA45C20FE70FC0065868A /* Build configuration list for PBXNativeTarget "Foreign OhbatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968BA45D20FE70FC0065868A /* Debug */,
+				968BA45E20FE70FC0065868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968BA45F20FE70FC0065868A /* Build configuration list for PBXNativeTarget "Foreign OhbatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968BA46020FE70FC0065868A /* Debug */,
+				968BA46120FE70FC0065868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		968BA43820FE70F90065868A /* Foreign_Ohbat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				968BA43920FE70F90065868A /* Foreign_Ohbat.xcdatamodel */,
+			);
+			currentVersion = 968BA43920FE70F90065868A /* Foreign_Ohbat.xcdatamodel */;
+			path = Foreign_Ohbat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 968BA42620FE70F90065868A /* Project object */;
+}
