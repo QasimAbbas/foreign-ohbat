@@ -15,6 +15,7 @@
 		968BA43F20FE70FC0065868A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968BA43D20FE70FC0065868A /* LaunchScreen.storyboard */; };
 		968BA44A20FE70FC0065868A /* Foreign_OhbatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BA44920FE70FC0065868A /* Foreign_OhbatTests.swift */; };
 		968BA45520FE70FC0065868A /* Foreign_OhbatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968BA45420FE70FC0065868A /* Foreign_OhbatUITests.swift */; };
+		96ED1AAD20FE990800069664 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED1AAC20FE990800069664 /* DAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		968BA45020FE70FC0065868A /* Foreign OhbatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foreign OhbatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		968BA45420FE70FC0065868A /* Foreign_OhbatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foreign_OhbatUITests.swift; sourceTree = "<group>"; };
 		968BA45620FE70FC0065868A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ED1AAC20FE990800069664 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				968BA43120FE70F90065868A /* AppDelegate.swift */,
+				96ED1AAC20FE990800069664 /* DAO.swift */,
 				968BA43320FE70F90065868A /* ViewController.swift */,
 				968BA43520FE70F90065868A /* Main.storyboard */,
 				968BA43B20FE70FC0065868A /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96ED1AAD20FE990800069664 /* DAO.swift in Sources */,
 				968BA43420FE70F90065868A /* ViewController.swift in Sources */,
 				968BA43220FE70F90065868A /* AppDelegate.swift in Sources */,
 				968BA43A20FE70F90065868A /* Foreign_Ohbat.xcdatamodeld in Sources */,
